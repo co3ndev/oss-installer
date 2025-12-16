@@ -2,11 +2,14 @@
 
 set -e
 
-# co3ndev installation script
-NAME="co3ntools"
-REPO="https://github.com/co3ndev/$NAME.git"
+# USEREDITCONFIG
+NAME="oss-installer"
+AUTHOR="co3ndev"
+
+# do not change
+REPO="https://github.com/$NAME.git"
 INSTALL_DIR="$HOME/.local/opt/$NAME"
-BIN_DIR="$HOME/.local/bin"
+BIN_DIR="$HOME/.local/bin/$AUTHOR"
 
 echo "Installing $NAME..."
 

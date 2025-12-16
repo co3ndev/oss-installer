@@ -6,9 +6,12 @@
 
 set -e
 
-# Configuration
-NAME="co3ntools"
-SOURCE_FILE="$NAME.cpp"
+# USEREDITCONFIG 
+NAME="co3ntools" #main source file
+ADDTNL="" # additional source files, separated by a space
+
+# do not change
+SOURCE_FILE="$NAME.cpp $ADDTNL"
 OUTPUT_FILE="$NAME"
 COMPILER="g++"
 CFLAGS="-Wall -Wextra -std=c++17 -O2"

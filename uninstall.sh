@@ -4,8 +4,11 @@
 
 set -e
 
-# Configuration
-NAME="co3ntools"
+# USEREDITCONFIG 
+NAME="oss-installer"
+
+
+# do not change
 INSTALL_DIR="$HOME/.local/opt/$NAME"
 BIN_DIR="$HOME/.local/bin"
 
